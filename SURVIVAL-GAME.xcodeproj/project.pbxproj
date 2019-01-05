@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50AAD79821E0921E00D3261F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAD79721E0921E00D3261F /* AppDelegate.swift */; };
+		50AAD79A21E0921E00D3261F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAD79921E0921E00D3261F /* ViewController.swift */; };
+		50AAD79D21E0921E00D3261F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AAD79B21E0921E00D3261F /* Main.storyboard */; };
+		50AAD7A021E0921E00D3261F /* SURVIVAL_GAME.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50AAD79E21E0921E00D3261F /* SURVIVAL_GAME.xcdatamodeld */; };
+		50AAD7A221E0921F00D3261F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AAD7A121E0921F00D3261F /* Assets.xcassets */; };
+		50AAD7A521E0921F00D3261F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AAD7A321E0921F00D3261F /* LaunchScreen.storyboard */; };
+		50AAD7B021E0921F00D3261F /* SURVIVAL_GAMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAD7AF21E0921F00D3261F /* SURVIVAL_GAMETests.swift */; };
+		50AAD7BB21E0921F00D3261F /* SURVIVAL_GAMEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAD7BA21E0921F00D3261F /* SURVIVAL_GAMEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50AAD7AC21E0921F00D3261F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AAD78C21E0921E00D3261F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AAD79321E0921E00D3261F;
+			remoteInfo = "SURVIVAL-GAME";
+		};
+		50AAD7B721E0921F00D3261F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AAD78C21E0921E00D3261F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AAD79321E0921E00D3261F;
+			remoteInfo = "SURVIVAL-GAME";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50AAD79421E0921E00D3261F /* SURVIVAL-GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SURVIVAL-GAME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AAD79721E0921E00D3261F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50AAD79921E0921E00D3261F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50AAD79C21E0921E00D3261F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50AAD79F21E0921E00D3261F /* SURVIVAL_GAME.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SURVIVAL_GAME.xcdatamodel; sourceTree = "<group>"; };
+		50AAD7A121E0921F00D3261F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50AAD7A421E0921F00D3261F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50AAD7A621E0921F00D3261F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AAD7AB21E0921F00D3261F /* SURVIVAL-GAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SURVIVAL-GAMETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AAD7AF21E0921F00D3261F /* SURVIVAL_GAMETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SURVIVAL_GAMETests.swift; sourceTree = "<group>"; };
+		50AAD7B121E0921F00D3261F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AAD7B621E0921F00D3261F /* SURVIVAL-GAMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SURVIVAL-GAMEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AAD7BA21E0921F00D3261F /* SURVIVAL_GAMEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SURVIVAL_GAMEUITests.swift; sourceTree = "<group>"; };
+		50AAD7BC21E0921F00D3261F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AAD79121E0921E00D3261F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AAD7A821E0921F00D3261F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AAD7B321E0921F00D3261F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AAD78B21E0921E00D3261F = {
+			isa = PBXGroup;
+			children = (
+				50AAD79621E0921E00D3261F /* SURVIVAL-GAME */,
+				50AAD7AE21E0921F00D3261F /* SURVIVAL-GAMETests */,
+				50AAD7B921E0921F00D3261F /* SURVIVAL-GAMEUITests */,
+				50AAD79521E0921E00D3261F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50AAD79521E0921E00D3261F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AAD79421E0921E00D3261F /* SURVIVAL-GAME.app */,
+				50AAD7AB21E0921F00D3261F /* SURVIVAL-GAMETests.xctest */,
+				50AAD7B621E0921F00D3261F /* SURVIVAL-GAMEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AAD79621E0921E00D3261F /* SURVIVAL-GAME */ = {
+			isa = PBXGroup;
+			children = (
+				50AAD79721E0921E00D3261F /* AppDelegate.swift */,
+				50AAD79921E0921E00D3261F /* ViewController.swift */,
+				50AAD79B21E0921E00D3261F /* Main.storyboard */,
+				50AAD7A121E0921F00D3261F /* Assets.xcassets */,
+				50AAD7A321E0921F00D3261F /* LaunchScreen.storyboard */,
+				50AAD7A621E0921F00D3261F /* Info.plist */,
+				50AAD79E21E0921E00D3261F /* SURVIVAL_GAME.xcdatamodeld */,
+			);
+			path = "SURVIVAL-GAME";
+			sourceTree = "<group>";
+		};
+		50AAD7AE21E0921F00D3261F /* SURVIVAL-GAMETests */ = {
+			isa = PBXGroup;
+			children = (
+				50AAD7AF21E0921F00D3261F /* SURVIVAL_GAMETests.swift */,
+				50AAD7B121E0921F00D3261F /* Info.plist */,
+			);
+			path = "SURVIVAL-GAMETests";
+			sourceTree = "<group>";
+		};
+		50AAD7B921E0921F00D3261F /* SURVIVAL-GAMEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50AAD7BA21E0921F00D3261F /* SURVIVAL_GAMEUITests.swift */,
+				50AAD7BC21E0921F00D3261F /* Info.plist */,
+			);
+			path = "SURVIVAL-GAMEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AAD79321E0921E00D3261F /* SURVIVAL-GAME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AAD7BF21E0921F00D3261F /* Build configuration list for PBXNativeTarget "SURVIVAL-GAME" */;
+			buildPhases = (
+				50AAD79021E0921E00D3261F /* Sources */,
+				50AAD79121E0921E00D3261F /* Frameworks */,
+				50AAD79221E0921E00D3261F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SURVIVAL-GAME";
+			productName = "SURVIVAL-GAME";
+			productReference = 50AAD79421E0921E00D3261F /* SURVIVAL-GAME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50AAD7AA21E0921F00D3261F /* SURVIVAL-GAMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AAD7C221E0921F00D3261F /* Build configuration list for PBXNativeTarget "SURVIVAL-GAMETests" */;
+			buildPhases = (
+				50AAD7A721E0921F00D3261F /* Sources */,
+				50AAD7A821E0921F00D3261F /* Frameworks */,
+				50AAD7A921E0921F00D3261F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AAD7AD21E0921F00D3261F /* PBXTargetDependency */,
+			);
+			name = "SURVIVAL-GAMETests";
+			productName = "SURVIVAL-GAMETests";
+			productReference = 50AAD7AB21E0921F00D3261F /* SURVIVAL-GAMETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50AAD7B521E0921F00D3261F /* SURVIVAL-GAMEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AAD7C521E0921F00D3261F /* Build configuration list for PBXNativeTarget "SURVIVAL-GAMEUITests" */;
+			buildPhases = (
+				50AAD7B221E0921F00D3261F /* Sources */,
+				50AAD7B321E0921F00D3261F /* Frameworks */,
+				50AAD7B421E0921F00D3261F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AAD7B821E0921F00D3261F /* PBXTargetDependency */,
+			);
+			name = "SURVIVAL-GAMEUITests";
+			productName = "SURVIVAL-GAMEUITests";
+			productReference = 50AAD7B621E0921F00D3261F /* SURVIVAL-GAMEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AAD78C21E0921E00D3261F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SORT_OUT;
+				TargetAttributes = {
+					50AAD79321E0921E00D3261F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					50AAD7AA21E0921F00D3261F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50AAD79321E0921E00D3261F;
+					};
+					50AAD7B521E0921F00D3261F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50AAD79321E0921E00D3261F;
+					};
+				};
+			};
+			buildConfigurationList = 50AAD78F21E0921E00D3261F /* Build configuration list for PBXProject "SURVIVAL-GAME" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50AAD78B21E0921E00D3261F;
+			productRefGroup = 50AAD79521E0921E00D3261F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AAD79321E0921E00D3261F /* SURVIVAL-GAME */,
+				50AAD7AA21E0921F00D3261F /* SURVIVAL-GAMETests */,
+				50AAD7B521E0921F00D3261F /* SURVIVAL-GAMEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AAD79221E0921E00D3261F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AAD7A521E0921F00D3261F /* LaunchScreen.storyboard in Resources */,
+				50AAD7A221E0921F00D3261F /* Assets.xcassets in Resources */,
+				50AAD79D21E0921E00D3261F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AAD7A921E0921F00D3261F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AAD7B421E0921F00D3261F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AAD79021E0921E00D3261F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AAD79A21E0921E00D3261F /* ViewController.swift in Sources */,
+				50AAD79821E0921E00D3261F /* AppDelegate.swift in Sources */,
+				50AAD7A021E0921E00D3261F /* SURVIVAL_GAME.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AAD7A721E0921F00D3261F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AAD7B021E0921F00D3261F /* SURVIVAL_GAMETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AAD7B221E0921F00D3261F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AAD7BB21E0921F00D3261F /* SURVIVAL_GAMEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AAD7AD21E0921F00D3261F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AAD79321E0921E00D3261F /* SURVIVAL-GAME */;
+			targetProxy = 50AAD7AC21E0921F00D3261F /* PBXContainerItemProxy */;
+		};
+		50AAD7B821E0921F00D3261F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AAD79321E0921E00D3261F /* SURVIVAL-GAME */;
+			targetProxy = 50AAD7B721E0921F00D3261F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50AAD79B21E0921E00D3261F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AAD79C21E0921E00D3261F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50AAD7A321E0921F00D3261F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AAD7A421E0921F00D3261F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AAD7BD21E0921F00D3261F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50AAD7BE21E0921F00D3261F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AAD7C021E0921F00D3261F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SURVIVAL-GAME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sortOut.SURVIVAL-GAME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50AAD7C121E0921F00D3261F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SURVIVAL-GAME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sortOut.SURVIVAL-GAME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50AAD7C321E0921F00D3261F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SURVIVAL-GAMETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sortOut.SURVIVAL-GAMETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SURVIVAL-GAME.app/SURVIVAL-GAME";
+			};
+			name = Debug;
+		};
+		50AAD7C421E0921F00D3261F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SURVIVAL-GAMETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sortOut.SURVIVAL-GAMETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SURVIVAL-GAME.app/SURVIVAL-GAME";
+			};
+			name = Release;
+		};
+		50AAD7C621E0921F00D3261F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SURVIVAL-GAMEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sortOut.SURVIVAL-GAMEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SURVIVAL-GAME";
+			};
+			name = Debug;
+		};
+		50AAD7C721E0921F00D3261F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SURVIVAL-GAMEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sortOut.SURVIVAL-GAMEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SURVIVAL-GAME";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AAD78F21E0921E00D3261F /* Build configuration list for PBXProject "SURVIVAL-GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AAD7BD21E0921F00D3261F /* Debug */,
+				50AAD7BE21E0921F00D3261F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AAD7BF21E0921F00D3261F /* Build configuration list for PBXNativeTarget "SURVIVAL-GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AAD7C021E0921F00D3261F /* Debug */,
+				50AAD7C121E0921F00D3261F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AAD7C221E0921F00D3261F /* Build configuration list for PBXNativeTarget "SURVIVAL-GAMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AAD7C321E0921F00D3261F /* Debug */,
+				50AAD7C421E0921F00D3261F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AAD7C521E0921F00D3261F /* Build configuration list for PBXNativeTarget "SURVIVAL-GAMEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AAD7C621E0921F00D3261F /* Debug */,
+				50AAD7C721E0921F00D3261F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50AAD79E21E0921E00D3261F /* SURVIVAL_GAME.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50AAD79F21E0921E00D3261F /* SURVIVAL_GAME.xcdatamodel */,
+			);
+			currentVersion = 50AAD79F21E0921E00D3261F /* SURVIVAL_GAME.xcdatamodel */;
+			path = SURVIVAL_GAME.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50AAD78C21E0921E00D3261F /* Project object */;
+}
